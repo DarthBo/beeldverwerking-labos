@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.4)
 
-SET(LABO "opgave3")
+SET(LABO "labo3")
 
 PROJECT(${LABO})
 
@@ -11,11 +11,19 @@ LINK_DIRECTORIES(/usr/local/lib)
 LINK_DIRECTORIES(/usr/lib)
 SET(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin)
 SET(LIBRARY_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin)
-SET(CMAKE_CXX_FLAGS "-o3 -w")
+SET(CMAKE_CXX_FLAGS "-o3 -Wall")
 SET(CMAKE_CXX_LINK_FLAGS "-pg")
-SET(OpenCV_LIBRARIES opencv_core opencv_highgui)
+SET(OpenCV_LIBRARIES opencv_core opencv_highgui opencv_imgproc)
 
-ADD_EXECUTABLE(${LABO} src/tibault_damman_${LABO}.cpp)
-TARGET_LINK_LIBRARIES(${LABO} ${OpenCV_LIBRARIES})
+FILE(GLOB FILES . src/*.cpp)
+FOREACH (f ${FILES})
+
+get_filename_component(filename ${f} NAME_WE)
+
+ADD_EXECUTABLE(${filename} src/${filename}.cpp)
+TARGET_LINK_LIBRARIES(${filename} ${OpenCV_LIBRARIES})
+
+ENDFOREACH()
+
 
 SET(CMAKE_BUILD_TYPE Release)

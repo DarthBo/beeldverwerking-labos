@@ -6,7 +6,7 @@ Oplossingen van de labo's beeldverwerking
 ### TODO
 
 - ~~labo1~~
-- labo2
+- ~~labo2~~
 - labo3
 - labo4
 - labo5
