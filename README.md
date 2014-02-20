@@ -28,6 +28,8 @@ Oplossingen van de labo's beeldverwerking
 
 ```bash
 cd labo1
-cmake .
+mkdir build
+cd build
+cmake ..
 make
 ```
