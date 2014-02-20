@@ -13,8 +13,8 @@ Oplossingen van de labo's beeldverwerking
   - ~~opgave4~~
   - ~~opgave5~~
   - ~~opgave6~~
-- labo3
-  - opgave7
+- ~~labo3~~
+  - ~~opgave7~~
 - labo4
   - opgave8
   - opgave9

@@ -11,7 +11,7 @@ const char* win2 = "fixed";
 void unsharpMask(cv::Mat& im)
 {
     Mat tmp;
-    GaussianBlur(im, tmp, Size(30,30), 5);
+    GaussianBlur(im, tmp, Size(35,35), 35);
     addWeighted(im, 1.5, tmp, -0.5, 0, im);
 }
 

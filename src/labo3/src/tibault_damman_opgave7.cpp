@@ -16,13 +16,23 @@ void labo7(const char* filename)
 
     Mat img = imread(filename);
 
+    //imshow(win1, img);
+
+    //verticale sluiting: dilatatie -> erosie
+
     imshow(win1, img);
 
-    /*
+    Mat tmp;
+    Mat kern_dil = getStructuringElement(MORPH_RECT,Size(5,5));
+    erode(img,tmp,kern_dil);
+
+   // imshow(win1, tmp);
+
     Mat out;
+    Mat kern_er = getStructuringElement(MORPH_RECT,Size(1,5));
+    dilate(tmp,out,kern_er,Point(-1,-1),4);
 
     imshow(win2, out);
-    */
 
     waitKey();
 }
