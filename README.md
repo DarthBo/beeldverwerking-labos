@@ -7,12 +7,12 @@ Oplossingen van de labo's beeldverwerking
 
 - ~~labo1~~
   - ~~opgave1~~
-- labo2
+- ~~labo2~~
   - ~~opgave2~~
-  - opgave3
-  - opgave4
-  - opgave5
-  - opgave6
+  - ~~opgave3~~
+  - ~~opgave4~~
+  - ~~opgave5~~
+  - ~~opgave6~~
 - labo3
   - opgave7
 - labo4

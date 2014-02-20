@@ -19,7 +19,7 @@ void start_show(const char* filename)
 	Size ksize;
 	ksize.width = 5;
 	ksize.height = 5;
-	GaussianBlur(img, blur, ksize, 1.2);
+    GaussianBlur(img, blur, ksize, 1.2);
     
     imshow(win1, img);
     imshow(win2, blur);
