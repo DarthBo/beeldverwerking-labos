@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.4)
 
-SET(LABO "opgave1")
+SET(LABO "labo1")
 
 PROJECT(${LABO})
 
@@ -15,7 +15,7 @@ SET(CMAKE_CXX_FLAGS "-o3 -w")
 SET(CMAKE_CXX_LINK_FLAGS "-pg")
 SET(OpenCV_LIBRARIES opencv_core opencv_highgui opencv_imgproc)
 
-ADD_EXECUTABLE(tibault_damman_${LABO} src/tibault_damman_${LABO}.cpp)
+ADD_EXECUTABLE(tibault_damman_${LABO} src/tibault_damman_opgave1.cpp)
 TARGET_LINK_LIBRARIES(tibault_damman_${LABO} ${OpenCV_LIBRARIES})
 
 SET(CMAKE_BUILD_TYPE Release)
