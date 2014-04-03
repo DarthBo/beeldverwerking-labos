@@ -15,9 +15,9 @@ Oplossingen van de labo's beeldverwerking
   - ~~opgave6~~
 - ~~labo3~~
   - ~~opgave7~~
-- labo4
-  - opgave8
-  - opgave9
+- ~~labo4~~
+  - ~~opgave8~~
+  - ~~opgave9~~
 - labo5
   - opgave10
   - opgave11
