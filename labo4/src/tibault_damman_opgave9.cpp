@@ -6,7 +6,7 @@
 
 using namespace cv;
 
-const char* win1 = "input";
+const char* win1 = "input (klik LB, RB, LO, RO)";
 const char* win2 = "fixed";
 
 int total = 0;
