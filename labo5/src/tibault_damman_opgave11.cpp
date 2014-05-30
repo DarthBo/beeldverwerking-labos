@@ -18,13 +18,13 @@ void labo11(const char* filename)
     cvtColor(src, grey, CV_RGB2GRAY);
 
     //can canny come out to play?
-    Mat outline;
-    Canny(grey, outline, 5, 15);
+    Mat edges;
+    Canny(grey, edges, 5, 15);
     //imshow("canny", outline);
 
     //find lines
     vector<Vec2f> lines;
-    HoughLines(outline, lines, 1, CV_PI/180, 100);
+    HoughLines(edges, lines, 1, CV_PI/180, 100);
 
     // draw lines
     Mat out = src.clone();
