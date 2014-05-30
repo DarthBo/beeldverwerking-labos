@@ -18,11 +18,11 @@ Oplossingen van de labo's beeldverwerking
 - ~~labo4~~
   - ~~opgave8~~
   - ~~opgave9~~
-- labo5
-  - opgave10
-  - opgave11
-  - opgave12
-  - opgave13
+- ~~labo5~~
+  - ~~opgave10~~
+  - ~~opgave11~~
+  - ~~opgave12~~
+  - ~~opgave13~~
 
 ### Builden:
 
